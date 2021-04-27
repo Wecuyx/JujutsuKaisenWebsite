@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+}
+
+nav{
+  margin-right: 10%;
+  float: right;
+}
+
+.logo {
+  cursor: pointer;
+  font-size: 25px;
+}
+.nav__links a,
+.cta,
+.logo,
+.overlay__content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  padding-top: 10%;
+  list-style: none;
+  display: flex;
+  font-size: 15px;
+  width: 100px;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.title{
+  padding: 30px 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-shadow: 1px 1px grey;
+  text-underline-offset: 15px;
+  color: white;
+  background-color: #24252a;
+}
+
+/* Card */
+.card_container{
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid grey;
+  background-color: #24252a ;
+}
+.card_left{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar_left{
+  float:left;
+  margin-left: 5%;
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 40%;
+}
+.card_details_left{
+  display:inline-block;
+  width: 45%;
+  float:right;
+  font-size: 18px;
+  color:white;
+  margin-right: 5%;
+}
+
+.card_right{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar_right{
+  float:left;
+  margin-right: 5%;
+  border: 5px solid white;
+  border-radius: 5px;
+  width: 40%;
+}
+.card_details_right{
+  display:inline-block;
+  width: 40%;
+  font-size: 18px;
+  float:right;
+  color:white;
+  margin-left: 10%;
+}
