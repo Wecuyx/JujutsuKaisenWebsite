@@ -233,28 +233,6 @@ nav{
     background-color: #24252a;
 }
 
-.special_section p span {
-  position: absolute;
-  display: block;
-}
-
-.special_section p span:nth-child(1) {
-  bottom: -2180px;
-  left:-50%;
-  width: 5%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #03e9f4);
-  animation: btn-anim1 2s linear infinite;
-}
-
-@keyframes btn-anim1 {
-  0% {
-    left: 42%;
-  }
-  50%,100% {
-    left: 53%;
-  }
-}
 .special_container{
   display: flex;
   justify-content: space-between;
